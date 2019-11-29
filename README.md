@@ -1,1 +1,14 @@
-"# utube-clone" 
+# Utube-Clone
+- This is a basic HTML-CSS remake of the popular ![Youtube](https://youtube.com) homepage.
+
+![image](https://user-images.githubusercontent.com/46686100/69888400-df3aab00-12eb-11ea-8bbc-9fa4077d9fa0.png)
+
+## Live Demo
+- ![Live Demo]() hosted with love from ![Netlify](https://netlify.com)
+## Technologies
+- HTML
+- CSS
+
+## CDNs
+- https://fonts.google.com
+- https://fontawesome.com/icons

@@ -6,6 +6,8 @@
 
 ## Live Demo
 - [Live Demo](https://utube-clone.netlify.com/) hosted with love from [Netlify](https://www.netlify.com/)
+
+
 ## Technologies
 - HTML
 - CSS
@@ -13,3 +15,6 @@
 ## CDNs
 - https://fonts.google.com
 - https://fontawesome.com/icons
+
+## Licence
+MIT

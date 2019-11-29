@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/46686100/69888400-df3aab00-12eb-11ea-8bbc-9fa4077d9fa0.png)
 
 ## Live Demo
-- ![Live Demo](utube-clone.netlify.com) hosted with love from ![Netlify](https://www.netlify.com/)
+- [Live Demo](utube-clone.netlify.com) hosted with love from [Netlify](https://www.netlify.com/)
 ## Technologies
 - HTML
 - CSS

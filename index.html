@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>UTUBE CLONE</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+    />
+    <script
+      src="https://kit.fontawesome.com/5a1759509c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="left-side-nav">
+        <i class="fa fa-bars desktop-menu"></i>
+        <a class="navbar-brand-sect" href="#">
+          <i class="fab fa-youtube"></i>
+          <span class="navbrand-span">YouTube</span>
+        </a>
+      </div>
+
+      <div class="navbar-form">
+        <input
+          class="navbar-search-input"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <span><i class="fa fa-search search-icon-nav"></i></span>
+      </div>
+
+      <div class="right-side-icons">
+        <i class="fas fa-video"></i>
+        <i class="fas fa-grip-vertical"></i>
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-user-circle user-icon"></i>
+      </div>
+    </nav>
+
+    <!-- main video column -->
+    <main>
+      <section class="main-container">
+        <div class="left-column">
+          <div class="video-player">
+            <iframe
+              src="https://www.youtube.com/embed/UCbVh7-zyZ8"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <h1>"The Remote Job Search: My Microverse Journey" with Paul Rail</h1>
+          <section class="video-info">
+            <h3 class="main-iframe-stats">
+              <span>203k</span> views <span class="dot">.</span> 26-Nov-2019
+            </h3>
+            <div class="trolls-feedback">
+              <i class="fa fa-thumbs-up"></i>
+              <span>245</span>
+              <i class="fa fa-thumbs-down"></i>
+              <span>5</span>
+              <i class="fas fa-share"></i>
+              <span>SHARE</span>
+              <i class="fa fa-inbox"></i>
+              <span>SAVE</span>
+              <i class="fa fa-ellipsis-h"></i>
+            </div>
+          </section>
+          <hr />
+          <!-- description area section  -->
+          <section class="description">
+            <div class="logo-and-channel-desc">
+              <img
+                id="microverse"
+                src="img/microverse.png"
+                alt="microverse logo image"
+              />
+              <div class="description-text">
+                <p id="author">Microverse</p>
+                <p id="subscribers">20.4M subscribers</p>
+                <p>
+                  Join microverse today:
+                  <a href="https://www.microverse.org/">microverse.org</a>
+                </p>
+                <p>
+                  become the top developer:
+                  <a href="https://www.microverse.org/">http://bit.ly/2ast</a>
+                </p>
+                <h4 id="show-more">SHOW MORE</h4>
+              </div>
+            </div>
+            <button class="subscribe-btn">SUBSCRIBE</button>
+          </section>
+          <!-- end of description area -->
+          <hr />
+          <!-- start of comment section  -->
+          <section class="comments">
+            <div class="top-of-comments">
+              <h3><span>7,404 Comments</span></h3>
+              <div class="sort-comments-area">
+                <i class="fas fa-sort-amount-up" id="sort"></i>
+                <span>
+                  SORT BY
+                </span>
+              </div>
+            </div>
+          </section>
+          <section class="make-comment">
+            <span class="logo"
+              ><i class="fas fa-user-circle commenter-pic"></i
+            ></span>
+            <div class="commenting-div">
+              <h3>commenting publicly as</h3>
+              <p>
+                <strong class="username-main-div">username</strong>
+              </p>
+              <hr />
+            </div>
+          </section>
+          <section class="trolls-zone">
+            <span class="logo"
+              ><i class="fas fa-user-circle commenter-pic"></i
+            ></span>
+            <div>
+              <h6 class="troll-name">Troll Name</h6>
+              <p>This video was straight to i don't know, too many hee haa</p>
+              <div class="trolls-feedback">
+                <i class="fa fa-thumbs-up"></i>
+                <span>245</span>
+                <i class="fa fa-thumbs-down"></i>
+                <span>5</span>
+                <span>REPLY</span>
+              </div>
+            </div>
+          </section>
+        </div>
+        <aside>
+          <div class="preview-box">
+            <div class="upnext-div">
+              <p>Up next</p>
+              <span class="auto-play"
+                >AUTOPLAY <i class="fas fa-toggle-on"></i
+              ></span>
+            </div>
+
+            <div class="iframe-side-container">
+              <iframe
+                src="https://www.youtube.com/embed/xBQ2INptpik"
+                allow="accelerometer; autoplay;
+                        encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="side-vid"
+              >
+              </iframe>
+              <div class="iframe-side-details">
+                <h4><strong>video title even if it's very loooong</strong></h4>
+                <p>Author</p>
+                <p>N views</p>
+              </div>
+            </div>
+          </div>
+          <hr class="aside-hr" />
+          <div class="iframe-side-container">
+            <iframe
+              src="https://www.youtube.com/embed/-NHtTunyuu4"
+              allow="accelerometer; autoplay;
+                     encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="side-vid"
+            >
+            </iframe>
+            <div class="iframe-side-details">
+              <h4><strong>video title even if it's very loooong</strong></h4>
+              <p>Author</p>
+              <p>N views</p>
+            </div>
+          </div>
+
+          <div class="iframe-side-container">
+            <iframe
+              src="https://www.youtube.com/embed/qIp3c2S28O4"
+              allow="accelerometer;
+                     autoplay; encrypted-media;
+                     gyroscope; picture-in-picture"
+              allowfullscreen
+              class="side-vid"
+            >
+            </iframe>
+            <div class="iframe-side-details">
+              <h4><strong>video title even if it's very loooong</strong></h4>
+              <p>Author</p>
+              <p>N views</p>
+            </div>
+          </div>
+
+          <div class="iframe-side-container">
+            <iframe
+              src="https://www.youtube.com/embed/mPRUNGGORDo"
+              allow="accelerometer; autoplay;
+                     encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="side-vid"
+            >
+            </iframe>
+            <div class="iframe-side-details">
+              <h4><strong>video title even if it's very loooong</strong></h4>
+              <p>Author</p>
+              <p>N views</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>

@@ -18,7 +18,7 @@
 - https://fontawesome.com/icons
 
 ## Steps For Installation
-- After cloning this repo, git clone [repo](), cd utube-clone
+- After cloning this repo, git clone [repo](https://github.com/codecell/utube-clone.git), cd utube-clone
 - open the index.html file in your favourite browser, voila!!!
 
 

@@ -17,5 +17,10 @@
 - https://fonts.google.com
 - https://fontawesome.com/icons
 
+## Steps For Installation
+- After cloning this repo, git clone [repo](), cd utube-clone
+- open the index.html file in your favourite browser, voila!!!
+
+
 ## Licence
 MIT
